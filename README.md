@@ -23,7 +23,7 @@ input example:
 }
 ```
 
-<img src="WX20201128-174001@2x.png" width="300">
+<img src="WX20201128-174001@2x.png" width="500">
 
 
 ## see the output
@@ -32,5 +32,4 @@ outout neo4j:http://0.0.0.0:4567/browser/
 
 password: neo4j1
 
-<img src="WX20201128-172836@2x.png" width="300">
-
+<img src="WX20201128-172836@2x.png" width="500">
