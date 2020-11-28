@@ -1,7 +1,7 @@
 # jessica_knowwledge_extraction
 
 ```bash
-docker build -t gaoyuanliang/jessica_knowledge_extraction:1.0.1 .
+docker pull gaoyuanliang/jessica_knowledge_extraction:1.0.1
 
 docker run -it \
 -p 4567:4567 \
