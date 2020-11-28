@@ -6,7 +6,7 @@ import argsparser
 from flask import *
 from flask_restplus import *
 
-from jessica_knowwledge_extraction_to_neo4j import knowwledge_extraction_to_neo4j
+from jessica_knowledge_extraction_to_neo4j import knowwledge_extraction_to_neo4j
 
 ns = Namespace('JessKnowEx', description='Jessica\'s Knowledge Extraction Engine. I am open for a DS/AI job, contact me by gaoyuanliang@outlook.com')
 args = argsparser.prepare_args()
