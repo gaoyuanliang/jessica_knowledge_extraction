@@ -16,7 +16,7 @@ input example:
 
 ```python
 {
-"text": "Jessica Liang works for Yangzhou Mongo Tech LLC. She was born in China and educated at Jiangsu University of Science and Technology. Jessica is a 23 years old Chinese girl."
+"text": "Jessica Liang works for Mongo Tech LLC. She was born in China and educated at Jiangsu University of Science and Technology. Jessica is a 23 years old Chinese girl."
 }
 ```
 
