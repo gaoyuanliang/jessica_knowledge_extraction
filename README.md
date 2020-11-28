@@ -1,4 +1,4 @@
-# jessica_knowwledge_extraction
+# Jessica's Knowledge Extraction Engine
 
 ```bash
 docker pull gaoyuanliang/jessica_knowledge_extraction:1.0.1
