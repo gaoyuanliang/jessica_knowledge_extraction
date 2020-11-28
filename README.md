@@ -1,5 +1,7 @@
 # Jessica's Knowledge Extraction Engine
 
+## start the service
+
 ```bash
 docker pull gaoyuanliang/jessica_knowledge_extraction:1.0.1
 
@@ -10,6 +12,7 @@ docker run -it \
 gaoyuanliang/jessica_knowledge_extraction:1.0.1
 ```
 
+## input the text
 input rest api: http://0.0.0.0:7563/
 
 input example:
@@ -22,6 +25,7 @@ input example:
 
 ![](WX20201128-174001@2x.png)
 
+## see the output
 
 outout neo4j:http://0.0.0.0:4567/browser/
 
