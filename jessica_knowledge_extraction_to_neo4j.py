@@ -1,4 +1,4 @@
-#####jessica_knowwledge_extraction_to_neo4j.py#####
+#####jessica_knowledge_extraction_to_neo4j.py#####
 from yan_neo4j import start_neo4j
 from yan_neo4j import create_neo4j_session
 from yan_neo4j import ingest_knowledge_triplets_to_neo4j
@@ -18,4 +18,4 @@ Jessica Liang works for Group 42 Inc. She was born in China. She studies at Jian
 
 ingest_knowledge_triplets_to_neo4j(relation_extraction(text), neo4j_session)
 '''
-#####jessica_knowwledge_extraction_to_neo4j.py#####
+#####jessica_knowledge_extraction_to_neo4j.py#####
