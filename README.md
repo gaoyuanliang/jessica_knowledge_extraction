@@ -32,4 +32,9 @@ outout neo4j:http://0.0.0.0:4567/browser/
 
 password: neo4j1
 
+input one line cypher code
+```bash
+MATCH p=()-->() RETURN p LIMIT 100
+```
+
 <img src="WX20201128-172836@2x.png" width="500">
