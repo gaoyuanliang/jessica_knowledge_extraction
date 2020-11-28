@@ -1,5 +1,14 @@
 # jessica_knowwledge_extraction
 
+```bash
+docker build -t gaoyuanliang/jessica_knowledge_extraction:1.0.1 .
+
+docker run -it \
+-p 4567:4567 \
+-p 8765:8765 \
+-p 7563:9000 \
+gaoyuanliang/jessica_knowledge_extraction:1.0.1
+```
 
 input rest api: http://0.0.0.0:7563/
 
