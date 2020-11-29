@@ -38,3 +38,8 @@ MATCH p=()-->() RETURN p LIMIT 100
 ```
 
 <img src="WX20201128-172836@2x.png" width="500">
+
+
+## contact
+
+I am opent for a data scientist/AI engineer job at UAE. Contact me by gaoyuanliang@outlook.com
