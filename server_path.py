@@ -8,7 +8,7 @@ from flask_restplus import *
 
 from jessica_knowledge_extraction_to_neo4j import knowwledge_extraction_to_neo4j
 
-ns = Namespace('JessKnowEx', description='Jessica\'s Knowledge Extraction Engine. I am open for a DS/AI job, contact me by gaoyuanliang@outlook.com')
+ns = Namespace('knowledge_graph')
 args = argsparser.prepare_args()
 
 parser = ns.parser()
@@ -17,15 +17,15 @@ parser.add_argument('text', type=str, location='json')
 #######Text2Own_KnowledgeGraph
 req_fields2 = {\
 	'text': fields.String()}
-jessica_api_req2 = ns.model('JessKnowEx', req_fields2)
+jessica_api_req2 = ns.model('knowledge_graph', req_fields2)
 
 rsp_fields2 = {\
 	'status':fields.String,\
 	'running_time':fields.Float\
 	}
-jessica_api_rsp2 = ns.model('JessKnowEx', rsp_fields2)
+jessica_api_rsp2 = ns.model('knowledge_graph', rsp_fields2)
 
-@ns.route('')
+@ns.route('/free_text_to_knowledge_graph')
 class jessica_api_own(Resource):
 	def __init__(self, *args, **kwargs):
 		super(jessica_api_own, self).__init__(*args, **kwargs)
